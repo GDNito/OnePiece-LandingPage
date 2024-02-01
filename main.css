@@ -17,8 +17,8 @@ body{
     background: linear-gradient(132deg, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 100%);
 }
 #controller>img{
-   width: 200px;
-   height: 200px;
+   width: 100px;
+   height: 100px;
    background-color: black;
    border-radius: 300px;
    margin-bottom: 50px;
@@ -45,7 +45,7 @@ h1,h3{
 #controller{
     position: absolute;
     top: 0vh;
-    left: 80vw;
+    right: 0px;
     height: 100%;
     box-sizing: border-box;
     display: flex;
