@@ -13,5 +13,5 @@ function change(no){
     title.innerText = names[no]
     desc.innerText = info[no]
     bg.style.background = `url(${image[no]}) no-repeat`
-    bg.style.backgroundSize = "cover"
+    bg.style.backgroundSize = "100vw 100vh"
 }
