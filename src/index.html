@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main.css"  rel="stylesheet">
+    <title>One piece Landing Page</title>
+</head>
+<body class="h-screen w-screen" onload="change(0)" >
+    <div id="content" class="bg-gradient-to-b from-black via-black-transparent to-transparent h-screen w-screen flex flex-col items-center fixed xl:items-start xl:justify-center xl:p-10 xl:bg-gradient-to-r xl:gap-10">
+            <img src="assets/logo.png" class="">
+            <h1 id="title" class="text-white text-2xl text-center xl:text-6xl font-serif">Portgas D. Ace</h1>
+            <h3 id="desc" class="text-white w-10/12 text-center xl:text-justify xl:w-8/12 xl:text-3xl font-serif">Portgas D. Ace, com o poder da Mera Mera no Mi, era um membro valioso dos Piratas do Barba Branca. Sua jornada em busca de identidade e o impacto de sua morte na Batalha de Marineford ressoam como lições profundas sobre amizade e sacrifício na vida pirata.</h3>
+    </div>
+    <div id="controller" class=" bg-black bg-opacity-50 h-28 p-3.5 fixed bottom-0 w-screen flex justify-between sm:h-48 xl:h-screen xl:w-1/6 xl:flex-col xl:right-0 xl:justify-around">
+        <img src="assets/ace.png" class="w-1/5 h-auto max-w-[300px] max-h-[300px] bg-black rounded-full xl:w-auto"  onclick="change(0)">
+        <img src="assets/bb.png"  class="w-1/5 h-auto max-w-[300px] max-h-[300px] bg-black rounded-full xl:w-auto" onclick="change(1)">
+        <img src="assets/gdr.png" class="w-1/5 h-auto max-w-[300px] max-h-[300px] bg-black rounded-full xl:w-auto" onclick="change(2)">
+        <img src="assets/bn.png"  class="w-1/5 h-auto max-w-[300px] max-h-[300px] bg-black rounded-full xl:w-auto" onclick="change(3)">
+            </div>
+    
+</body>
+<script src="main.js"></script>
+</html>

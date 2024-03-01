@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#controller > img{
+    box-shadow: 0px 0px 19px 8px rgba(0,0,0,0.75);
+}
+body{
+    background-image: url(assets/phone-ace.jpg);
+    background-size: 100vw 100vh ;
+}
+@media (xl) {
+    
+}
